@@ -4,11 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TicTacToe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <h1>TicTacToe</h1>
-    <canvas> HOII </canvas>
-    <script src="dist/main.js"></script>
+    <div class="container">
+      <h1 class="" id="playerText">TIC TAC TOE</h1>
+      <div id="gameboard">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+      </div>
+      <button id="restartBtn">Restart</button>
+    </div>
+    <script src="scripts/index.js"></script>
   </body>
 </html>
