@@ -17,6 +17,9 @@ h1 {
     font-size: 54px;
     text-transform: uppercase;
 }
+h1:hover{
+    rotate: -10deg;
+}
 
 .container {
     padding: 40px;
